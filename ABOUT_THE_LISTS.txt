@@ -1,0 +1,19 @@
+The word lists in this folder (one lowercase word per line)
+
+lithuanian_names.txt   518 Lithuanian first names, compiled for this course from the
+                       name lists of the Python package "Faker" (MIT licence).
+english_names.txt      3,798 English first names: the 2,000 most common girls' names and
+                       the 2,000 most common boys' names of the "names.txt" list used in
+                       Andrej Karpathy's "makemore" project (MIT licence), which is based
+                       on public data of the US Social Security Administration.
+                       Names that are used for both appear once.
+italian_towns.txt      3,999 Italian towns.
+swedish_towns.txt      1,168 Swedish towns.
+japanese_cities.txt    1,826 Japanese cities.
+
+The three lists of places come from the GeoNames geographical database
+(geonames.org, Creative Commons Attribution 4.0), through the Python package
+"geonamescache". Only single-word names of 3 to 12 letters were kept.
+
+Your own list: add a text file with one word per line (at least 300 words, saved
+as UTF-8) and use its name without ".txt" as LIST in the notebook.
